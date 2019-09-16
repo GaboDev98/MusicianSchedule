@@ -1,0 +1,7 @@
+{
+  "name": "Musician Schedule",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "angular"
+}

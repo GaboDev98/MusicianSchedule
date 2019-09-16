@@ -1,0 +1,74 @@
+page-home {
+
+    .logo-letters-header {
+        height: 80px;
+    }
+
+    .title-home {
+        margin: 0px;
+        padding: 0px;
+        color: #cccccc;
+        margin-left: 15px;
+        margin-top: 5px;
+        margin-bottom: 0px;
+        font-size: 45px;
+        font-weight: bold;
+    }
+
+    ion-header::after {
+        display: none;
+    }
+
+    .table-bordered[_ngcontent-c1] > thead[_ngcontent-c1] > tr[_ngcontent-c1] > th[_ngcontent-c1], .table-bordered[_ngcontent-c1] > tbody[_ngcontent-c1] > tr[_ngcontent-c1] > th[_ngcontent-c1], .table-bordered[_ngcontent-c1] > tfoot[_ngcontent-c1] > tr[_ngcontent-c1] > th[_ngcontent-c1], .table-bordered[_ngcontent-c1] > thead[_ngcontent-c1] > tr[_ngcontent-c1] > td[_ngcontent-c1], .table-bordered[_ngcontent-c1] > tbody[_ngcontent-c1] > tr[_ngcontent-c1] > td[_ngcontent-c1], .table-bordered[_ngcontent-c1] > tfoot[_ngcontent-c1] > tr[_ngcontent-c1] > td[_ngcontent-c1] {
+        border: none;
+        padding: 10px;
+    }
+
+    .table-bordered[_ngcontent-c1] {
+        border: none;
+    }
+
+    .monthview-datetable th {
+        color: #676969;
+        font-size: 15px;
+    }
+
+    .monthview-datetable tr, .monthview-datetable td {
+        color: #feffff;
+        font-weight: 500;
+        font-size: 25px;
+    }
+
+    .monthview-datetable tr, .monthview-datetable td, .monthview-datetable th {
+        padding: 5px !important;
+        padding-top: 19px !important;
+        padding-bottom: 18px !important;
+    }
+
+    .monthview-current {
+        // color: color($colors, danger, base) !important;
+        background-color: transparent !important;
+    }
+    
+    .monthview-selected[_ngcontent-c1] {
+        // color: color($colors, light, base) !important;
+        // background-color: color($colors, twitter, base) !important;
+        border-radius: 250px 250px 250px 250px;
+        -moz-border-radius: 250px 250px 250px 250px;
+        -webkit-border-radius: 250px 250px 250px 250px;
+    }
+
+    .monthview-primary-with-event {
+        // color: color($colors, primary, base) !important;
+        background-color: transparent !important;
+    }
+
+    .monthview-secondary-with-event {
+        // color: color($colors, primary, base) !important;
+        background-color: transparent !important;
+    }
+
+    .list-md {
+        margin-bottom: 65px;
+    }
+}

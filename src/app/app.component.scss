@@ -1,0 +1,256 @@
+// App Global Sass// --------------------------------------------------
+
+$colors: (
+  primary:    #488aff,
+  secondary:  #32db64,
+  danger:     #f53d3d,
+  light:      #f4f4f4,
+  dark:       #222,
+  twitter:    #1C9CEA,
+  facebook:   #395693,
+  google:     #F73A24,
+  warning:    #FFF300
+);
+
+// Global variables
+$text-color: #FFFFFF;
+$background-color: #000000;
+$toolbar-background: $background-color;
+$list-border-color: $text-color;
+
+.scroll-hide > div.scroll-content {
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+.alert-wrapper {
+    border: 1px solid $text-color;
+    background-color: $background-color;
+}
+
+.alert-sub-title, .alert-title {
+    color: $text-color;
+}
+
+.input-wrapper {
+    border-bottom: none;
+}
+
+.item-input.sc-ion-label-md-h, 
+.item-input .sc-ion-label-md-h {
+    min-width: 90px;
+}
+
+.item-input .label-md, .item-select .label-md, .item-datetime .label-md {
+    color: #999;
+}
+
+.logo {
+    width: 120px;
+    height: 160px;
+    margin: 20px auto 0;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    border-radius: 10%;
+    // background: url("../assets/imgs/ionic3-ico.png") no-repeat;
+    background-size: 120%;
+}
+
+.logo-letters-header {
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    height: 100px;
+    // background: url("../assets/imgs/LogoHeaderMusicia.png") no-repeat;
+    background-size: 100%;
+}
+
+.fab-md-light {
+    color: #fff;
+    border: 1px solid #FFFFFF;
+    background-color: #000000;
+}
+
+.searchbar-input-container {
+    position: relative;
+    padding-left: 15px;
+    padding-right: 28px;
+}
+
+.searchbar-md .searchbar-input {
+    border: none;
+    padding-right: 0px;
+    border-radius: 0px;
+    color: #fff;
+    background-color: transparent;
+    font-size: 18px;
+    padding-left: 0px;
+    box-shadow: 0 2px 0px 0 rgb(255, 255, 255), 0 0px 0px 0px rgb(255, 255, 255), 0 0px 0px 0 rgba(255, 255, 255, 0.12);
+}
+
+.searchbar-search-icon {
+    display: none;
+}
+
+ion-auto-complete ul {
+    margin-left: 8%;
+}
+
+ion-auto-complete ul li {
+    color: #000;
+    padding: 15px;
+    z-index: 999999;
+    padding-left: 15px;
+    background-color: #fff;
+    border-bottom: 1px solid #3a3a3a;
+}
+
+.item-autocomplete {
+    margin-left: 0%;
+    margin-right: 0px;
+    padding-left: 5px;
+    border-left: 1px #000 solid;
+    border-bottom: 1px #000 solid;
+}
+
+.list-md {
+    margin-bottom: 0px;
+}
+
+.item-no-padding-left {
+    padding-left: 0px;
+}
+
+.item-md h3 {
+    margin-top: 5px !important;
+    margin-bottom: 0px;
+}
+
+.letter-small {
+    font-size: 25px;
+}
+
+.letter-medium {
+    font-size: 42px;
+}
+
+.letter-big {
+    font-size: 60px;
+}
+
+.grid-letter-dates {
+    color: #676969;
+    padding-left: 24px;
+    padding-right: 24px;
+}
+
+.grid-letter-dates .letter-small, .grid-letter-dates .letter-medium {
+    font-weight: bold;
+}
+
+.grid-letter-dates h1 {
+    margin-bottom: 0px;
+}
+
+.grid-letter-dates .letter-small,
+.grid-letter-dates .letter-medium {
+    margin-top: 0px;
+}
+
+.grid-letter-dates ion-row {
+    width: 70%;
+}
+
+.grid-letter-dates ion-row:last-child ion-col:last-child h1 {
+    color: red;
+}
+
+.modal-form {
+    margin-bottom: 0px;
+}
+
+.buttons-event {
+    margin-bottom: 60px;
+}
+
+.buttons-event button {
+    margin-bottom: 5px;
+}
+
+.buttons-event button:last-child {
+    margin-bottom: 0px;
+}
+
+.div-padding {
+    padding: 16px;
+}
+
+.list-padding {
+    padding-left: 24px;
+    padding-right: 24px;
+}
+
+.item-md.item-block .item-inner {
+    padding-right: 0px;
+}
+
+.alert-md .alert-radio-label {
+    color: #488aff;
+}
+
+.select-custom {
+    max-width: 100%;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.select-md .select-icon {
+    display: none;
+}
+
+.alert-md [aria-checked=true] .alert-radio-label {
+    color: #FFFFFF;
+}
+
+.message-state-event {
+    width: 100%; 
+    background: yellow;
+}
+
+.message-state-event .input-wrapper {
+    border: none;
+    color: #000000;
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.message-state-event div:first-child {
+    border: none;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.message-state-event div.item-inner {
+    border: none !important;
+}
+
+.created div:first-child  {
+    border: none;
+    // ackground: color($colors, primary);
+}
+
+.completed div:first-child {
+    border: none;
+    // background: color($colors, secondary);
+}
+
+.pending div:first-child {
+    border: none;
+    // background: color($colors, warning);
+}
+
+.cancelled div:first-child {
+    border: none;
+    // background: color($colors, danger);
+}
